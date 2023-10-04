@@ -1,51 +1,38 @@
-## 💻 Sobre o projeto
+## 💻 Sobre o projeto Linguagem Simples
 
-Voll.med é uma clínica médica fictícia que precisa de um aplicativo para gestão de consultas. O aplicativo deve possuir funcionalidades que permitam o cadastro de médicos e de pacientes, e também o agendamento e cancelamento de consultas.
-
-Enquanto um time de desenvolvimento será responsável pelo aplicativo mobile, o nosso será responsável pelo desenvolvimento da API Rest desse projeto.
+Quiz utilizado como parte do treinamento do Manual de Linguagem Simples da Empresa Ceara Cidadao. 
+5 perguntas de multipla escolha sobre o tema abordado no Manual citado.
 
 ---
 
 ## ⚙️ Funcionalidades
 
-- [x] CRUD de médicos;
-- [x] CRUD de pacientes;
-- [x] Agendamento de consultas;
-- [x] Cancelamento de consultas;
+- [x] Tela de perguntas com multipla escolha
 
 ---
 
 ## 🎨 Layout
 
-O layout da aplicação mobile está disponível neste link: <a href="https://www.figma.com/file/N4CgpJqsg7gjbKuDmra3EV/Voll.med">Figma</a>
+<img src="assets\imagens\screen01.png" alt="Screen" style="height: 150px; width:150px;"/>
+<img src="assets\imagens\screen02.png" alt="Screen" style="height: 150px; width:150px;"/>
+<img src="assets\imagens\screen03.png" alt="Screen" style="height: 150px; width:150px;"/>
+<img src="assets\imagens\screen04.png" alt="Screen" style="height: 150px; width:150px;"/>
 
----
-
-## 📄 Documentação
-
-A documentação das funcionalidades da aplicação pode ser acessada neste link: <a href="https://trello.com/b/O0lGCsKb/api-voll-med">Trello</a>
 
 ---
 
 ## 🛠 Tecnologias
 
-As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do projeto:
+As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 
-- **[Java 17](https://www.oracle.com/java)**
-- **[Spring Boot 3](https://spring.io/projects/spring-boot)**
-- **[Maven](https://maven.apache.org)**
-- **[PostgreSQL Neon DB](https://neon.tech)**
-- **[Hibernate](https://hibernate.org)**
-- **[Flyway](https://flywaydb.org)**
-- **[Lombok](https://projectlombok.org)**
+- **[Python 3.12](https://docs.python.org/3/)**
+- **[Biblioiteca Python PySimpleGUI](https://www.pysimplegui.org/en/latest/)**
 
 ---
 
 ## 📝 Licença
 
-Projeto desenvolvido por [Alura](https://www.alura.com.br) e utilizado nos cursos de Spring Boot.
-
-Instrutor: [Rodrigo Ferreira](https://cursos.alura.com.br/user/rodrigo-ferreira) 
+Projeto desenvolvido por [@netoash](https://github.com/netoash) e [@laisfrr](https://github.com/laisfrr) 
 
 ---
 
