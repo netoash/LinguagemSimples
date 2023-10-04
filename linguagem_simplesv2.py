@@ -6,6 +6,9 @@ def texto(texto,tamanho = '_ 12'):
 def textol(texto,tamanho = '_ 12'):
     return sg.Text(texto,font=tamanho, justification='l', expand_x=True)
 
+def rodape(mensagem = "Desenvolvido por: @netoash e @laisfrr"):
+    return sg.Text(mensagem, font='Helvetica 7', text_color= 'gray', justification = 'r',expand_x=True)
+
 def showScreen(layout, opcao, resposta, fim=0):
     janela = sg.Window("Linguagem Simples", layout)
 
@@ -47,7 +50,7 @@ pergunta1 = [
     [sg.Button("B", key="b"),textol("Fortalecer o Atendimento Humanizado")],
     [sg.Button("C", key="c"),textol("Inovar de forma simples")],
     [sg.Button("D", key="d"),textol("Poder usar mais gírias")],
-    [sg.Text("Desenvolvido por: @netoash", font='Helvetica 7', text_color= 'gray', justification = 'r',expand_x=True)],
+    [rodape()],
 ]
 
 pergunta2 = [
@@ -63,7 +66,7 @@ pergunta2 = [
     [sg.Button("B", key="b"),textol("2020 / Fortaleza")],
     [sg.Button("C", key="c"),textol("2017 / Fortaleza")],
     [sg.Button("D", key="d"),textol("2020 / São Paulo")],
-    [sg.Text("Desenvolvido por: @netoash", font='Helvetica 7', text_color= 'gray', justification = 'r',expand_x=True)],
+    [rodape()],
 ]
 
 pergunta3 = [
@@ -79,7 +82,7 @@ pergunta3 = [
     [sg.Button("B", key="b"),textol("Jacqueline Fischer")],
     [sg.Button("C", key="c"),textol("Heloísa Fischer")],
     [sg.Button("D", key="d"),textol("Vera Fischer")],
-    [sg.Text("Desenvolvido por: @netoash", font='Helvetica 7', text_color= 'gray', justification = 'r',expand_x=True)],
+    [rodape()],
 ]
 
 pergunta4 = [
@@ -95,7 +98,7 @@ pergunta4 = [
     [sg.Button("B", key="b"),textol("Grupo focal da pesquisa de clima e GPTW")],
     [sg.Button("C", key="c"),textol("Painel de chamada de senhas.")],
     [sg.Button("D", key="d"),textol("Guia de Serviços do Portal meuvaptvupt")],
-    [sg.Text("Desenvolvido por: @netoash", font='Helvetica 7', text_color= 'gray', justification = 'r',expand_x=True)],
+    [rodape()],
 ]
 
 pergunta5 = [
@@ -111,7 +114,7 @@ pergunta5 = [
     [sg.Button("B", key="b"),textol("2 e 3 estão corretos")],
     [sg.Button("C", key="c"),textol("1 e 3 estão corretos")],
     [sg.Button("D", key="d"),textol("D - Todas as opções estão corretas")],
-    [sg.Text("Desenvolvido por: @netoash", font='Helvetica 7', text_color= 'gray', justification = 'r',expand_x=True)],
+    [rodape()],
 ]
 
 
