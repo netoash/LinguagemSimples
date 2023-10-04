@@ -1,4 +1,4 @@
-print("Desenvolvido por: @netoash\nCom colaboração de : @lais.fr")
+print("Desenvolvido por: @netoash\nCom colaboração de : @laisfrr")
 import PySimpleGUI as sg
 def texto(texto,tamanho = '_ 12'):
     return sg.Text(texto,font=tamanho, justification='c', expand_x=True)
