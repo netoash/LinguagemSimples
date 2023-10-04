@@ -25,7 +25,7 @@ Quiz utilizado como parte do treinamento do Manual de Linguagem Simples da Empre
 
 As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 
-- **[Python 3.12](https://docs.python.org/3/)**
+- **[Python 3](https://docs.python.org/3/)**
 - **[Biblioiteca Python PySimpleGUI](https://www.pysimplegui.org/en/latest/)**
 
 ---
